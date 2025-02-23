@@ -11,7 +11,6 @@ def get_student_score():
         print("Invalid input. Please enter a numerical value.")
         return get_student_score()
     return score
-
 def calculate_grade(score):
     if score >= 90:
         return 'A'
@@ -23,7 +22,6 @@ def calculate_grade(score):
         return 'D'
     else:
         return 'F'
-
 def main():
     score = get_student_score()
     grade = calculate_grade(score)
